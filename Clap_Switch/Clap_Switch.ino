@@ -29,6 +29,6 @@ void loop() {
   {
   lightOn = !lightOn;
   delay(100);
-  digitalWrite(led1, lightOn);
+  digitalWrite(led1, lightOn); // Output to Led
   }
 } 
